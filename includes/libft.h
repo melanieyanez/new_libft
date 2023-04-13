@@ -6,21 +6,17 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:06:32 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/13 12:10:20 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 17:20:24 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <ctype.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
 # include "ft_printf.h"
 
 // is

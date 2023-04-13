@@ -6,24 +6,20 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:06:32 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/13 11:55:00 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 17:24:27 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <ctype.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
 # include <stdarg.h>
 # include <limits.h>
-# include "../includes/libft.h"
+# include "libft.h"
 
 # define ULL unsigned long long
 # define BHMIN "0123456789abcdef"
