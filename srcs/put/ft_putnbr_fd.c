@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 12:59:14 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:13 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:28:41 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui écrit un entier sur un descripteur de fichier */
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -26,14 +30,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(nbr / 10, fd);
 	ft_putchar_fd((nbr % 10 + 48), fd);
 }
-
-/*
-int	main(void)
-{
-	char	file_path[] = "haricotvert2.txt";
-	int		file;
-
-	file = open(file_path, O_RDWR);
-	ft_putnbr_fd(-1000043, file);
-}
-*/

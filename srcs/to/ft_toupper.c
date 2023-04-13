@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 11:34:35 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:38:06 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:31:59 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui convertit les minuscules en majuscules */
 
 int	ft_toupper(int c)
 {
@@ -20,8 +24,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-
-/*int	main(void)
-{
-	printf("%d\n", ft_toupper('h'));
-}*/

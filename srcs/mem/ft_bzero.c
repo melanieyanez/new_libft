@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 11:20:22 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:36:49 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:21:12 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui écrit des 0 dans une série d'octets */
 
 void	ft_bzero(void *s, size_t n)
 {

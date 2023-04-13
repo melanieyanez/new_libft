@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 12:56:54 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:38:01 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:31:13 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui convertit un entier en chaîne de caractères */
 
 int	nbr_len(long int nbr)
 {
@@ -58,13 +62,3 @@ char	*ft_itoa(int n)
 	result[len] = '\0';
 	return (result);
 }
-
-/*int	main(void)
-{
-	int	nb;
-
-	nb = -2147483648LL;
-	printf("%d\n", nb);
-	printf("%d\n", nbr_len(nb));
-	printf("%s\n", ft_itoa(nb));
-}*/

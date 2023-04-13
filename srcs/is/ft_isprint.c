@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 14:01:30 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:36:45 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:15:32 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui vérifie si le caractère passé en argument est imprimable */
 
 int	ft_isprint(int c)
 {

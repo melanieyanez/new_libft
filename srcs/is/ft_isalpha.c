@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 12:48:27 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:36:35 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:14:38 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui vérifie si le caractère passé en argument est alphabétique */
 
 int	ft_isalpha(int c)
 {
@@ -18,12 +22,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-/*int	main(void)
-{
-	int	c;
-
-	c = 'h';
-	printf("ma fontion donne %d\n", ft_isalpha(c));
-	printf("la vraie fontion donne %d\n", isalpha(c));
-}*/

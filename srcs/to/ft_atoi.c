@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 14:10:13 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:59 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:30:48 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui convertit une chaîne de caractères en entier */
 
 int	ft_atoi(const char *str)
 {
@@ -40,11 +44,3 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
-
-/*int	main(void)
-{
-	char	test[] = "\n\n\n  -46\b9 \n5d6";
-
-	printf("%d\n", ft_atoi(test));
-	printf("%d\n", atoi(test));
-}*/

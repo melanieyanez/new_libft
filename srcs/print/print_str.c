@@ -1,29 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*   print_str.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/02 13:02:23 by myanez-p          #+#    #+#             */
-/*   Updated: 2023/04/13 12:23:11 by myanez-p         ###   ########.fr       */
+/*   Created: 2022/11/11 11:57:00 by myanez-p          #+#    #+#             */
+/*   Updated: 2023/03/06 12:26:06 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "ft_printf.h"
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* ------------------------------------------------------------------------ */
+/* Pour imprimer une chaîne de caractères */
 
-/* Fonction qui compare deux séries d'octets */
-
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+int	print_str(char *str)
 {
-	size_t	i;
+	int	i;
 
-	if (n == 0)
-		return (0);
 	i = 0;
-	while (((unsigned char *)s1)[i] == ((unsigned char *)s2)[i] && i < n - 1)
-		i++;
-	return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
+	if (str == NULL)
+		return (print_str("(null)"));
+	while (str[i])
+	{
+		print_char(str[i]);
+		i ++;
+	}
+	return (i);
 }

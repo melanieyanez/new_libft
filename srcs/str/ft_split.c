@@ -6,7 +6,7 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 15:47:29 by myanez-p          #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:19 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/13 12:00:39 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,21 +96,3 @@ char	**ft_split(char const *s, char c)
 	result[i] = 0;
 	return (result);
 }
-
-/*
-int	main(void)
-{
-	int	i;
-	char	**result;
-	
-	i = 0;
-	result= ft_split("hello!zzzzzzzz", 'z');
-	while (result[i] != 0)
-	{
-		printf("%s\n", result[i]);
-		i ++;
-	}
-	printf("%s\n", result[i]);
-	return (0);
-}
-*/
