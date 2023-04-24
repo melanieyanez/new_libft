@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 18:44:38 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:24 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:15:09 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui copie une chaîne de caractères en allouant de la mémoire */
+/* et retourne un pointeur vers la copie */
 
 char	*ft_strdup(const char *s1)
 {

@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 14:05:40 by myanez-p          #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:41 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:23:59 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction créant une nouvelle chaîne en appliquant */
+/* une fonction à chaque caractère de la chaîne de base */
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

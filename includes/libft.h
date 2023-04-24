@@ -6,7 +6,7 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:06:32 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/13 17:20:24 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 13:10:36 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
+# include <limits.h>
 # include "ft_printf.h"
+# include "get_next_line.h"
 
 // is
 
@@ -26,6 +28,10 @@ int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+
+// math
+
+int		ft_pow(int base, int power);
 
 // mem
 

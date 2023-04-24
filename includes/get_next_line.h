@@ -1,31 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/29 13:06:32 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/24 13:10:30 by myanez-p         ###   ########.fr       */
+/*   Created: 2022/12/17 11:44:24 by melanieyane       #+#    #+#             */
+/*   Updated: 2023/04/24 13:11:02 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
-# include <stdarg.h>
 # include "libft.h"
 
-# define ULL unsigned long long
-# define BHMIN "0123456789abcdef"
-# define BHMAJ "0123456789ABCDEF"
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 5
+# endif
 
-int		ft_printf(const char *arg0, ...);
-int		print_char(char c);
-int		print_str(char *str);
-int		print_number(int n);
-int		print_unsigned_number(unsigned int n);
-int		print_hexa_number(unsigned int n, char *base);
-int		print_ptr(unsigned long long n, char *base);
+char	*get_next_line(int fd);
+void	add_to_buffer(int fd, char **stash);
+void	add_to_stash(char **stash, char *buffer);
+void	extract_line(char *stash, char **line);
+void	generate_line(char **line, char *stash);
+int		check_newline(const char *str, char c);
+void	clean_stash(char **stash);
 
 #endif

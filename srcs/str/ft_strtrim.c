@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:02:51 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:52 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:20:46 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction retournant la chaîne de caractères en enlevant */
+/* les caractères de set au début et à la fin */
 
 int	is_in_charset(char c, char const *set)
 {
@@ -53,13 +58,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	result[i] = '\0';
 	return (result);
 }
-
-/*
-int	main(void)
-{
-	char	s1_test[] = "aaaaaa";
-	char	set_test[] = "a";
-
-	printf("%s\n", ft_strtrim(s1_test, set_test));
-}
-*/

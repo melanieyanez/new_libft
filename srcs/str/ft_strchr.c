@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 12:26:37 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:22 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:14:15 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction qui recherche un caractère dans une chaîne */
+/* et qui retourne un pointeur sur ce dernier */
 
 char	*ft_strchr(const char *s, int c)
 {

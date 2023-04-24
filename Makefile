@@ -6,7 +6,7 @@
 #    By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/29 13:08:59 by melanieyane       #+#    #+#              #
-#    Updated: 2023/04/13 11:52:51 by myanez-p         ###   ########.fr        #
+#    Updated: 2023/04/24 13:06:42 by myanez-p         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,8 @@ FTPUTDIR	= put
 FTTODIR		= to
 FTSTRDIR	= str
 FTPRINTDIR	= print
+FTMATHDIR	= math
+FTGNLDIR	= gnl
 
 # Règles
 
@@ -52,6 +54,8 @@ ${OBJDIR}%.o : ${SRCDIR}%.c
 		@${MKDIR} -p ${OBJDIR}${FTTODIR}
 		@${MKDIR} -p ${OBJDIR}${FTSTRDIR}
 		@${MKDIR} -p ${OBJDIR}${FTPRINTDIR}
+		@${MKDIR} -p ${OBJDIR}${FTMATHDIR}
+		@${MKDIR} -p ${OBJDIR}${FTGNLDIR}
 		@${GCC} ${CFLAGS} -I ${HEADERS} -c $< -o $@
 
 ${NAME} : ${OBJS}

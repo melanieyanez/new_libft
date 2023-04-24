@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 09:24:09 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/08 14:37:35 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:31:14 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction copiant la chaîne de caractères en s'assurant que */
+/* la copie terminera par 0 en fixant la taille de la dest */
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

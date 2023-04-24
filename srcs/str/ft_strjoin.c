@@ -6,11 +6,15 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:01:30 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/13 12:00:51 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:17:31 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction concaténant deux chaînes de caractères en allouant de la mémoire */
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

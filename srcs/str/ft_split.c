@@ -6,11 +6,16 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 15:47:29 by myanez-p          #+#    #+#             */
-/*   Updated: 2023/04/13 12:00:39 by myanez-p         ###   ########.fr       */
+/*   Updated: 2023/04/24 11:21:59 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* Fonction retournant un tableau contenant de chaînes de caractères */
+/* issue de la chaîne de base séparée par un caractère spécifique */
 
 void	free_malloc(char **result, size_t i)
 {
