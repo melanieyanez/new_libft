@@ -6,7 +6,7 @@
 /*   By: myanez-p <myanez-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 13:06:32 by melanieyane       #+#    #+#             */
-/*   Updated: 2023/04/24 13:10:36 by myanez-p         ###   ########.fr       */
+/*   Updated: 2024/03/04 16:41:40 by myanez-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_iswhitespace(char c);
 
 // math
 
